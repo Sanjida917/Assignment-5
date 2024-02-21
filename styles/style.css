@@ -21,3 +21,13 @@
     border-left: none;
     border-right: none;
 }
+
+.my-btn-class {
+
+    color: #03071280;
+}
+
+html{
+
+    scroll-behavior: smooth;
+}
