@@ -1,8 +1,4 @@
-// function setBackgroundColorById(elementID) {
 
-//     const elemnt = document.getElementsById(elementID);
-//     elemnt.classList.add('bg-Orange-500');
-// }
 
 function getElementsTextById(elementId){
 

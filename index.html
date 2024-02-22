@@ -17,8 +17,6 @@
 </head>
 
 
-
-
 <body>
 
     <header id="banner-section" class="m-20">
@@ -30,7 +28,7 @@
                     <a class="btn btn-ghost text-[#030712] font-bold text-4xl">Ticket-Pro</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
-                    <ul class="menu menu-horizontal px-1">
+                    <ul class="menu text-lg menu-horizontal px-1">
                         <li><a>Home</a></li>
                         <li><a>About</a></li>
                         <li><a>Destination</a></li>
@@ -76,13 +74,12 @@
 
             <h1 class="mt-20 text-center inter text-4xl font-bold">Best offers for you</h1>
 
-            <div class="flex w-full justify-center gap-8 mt-14">
+            <div class="lg:flex w-full justify-center gap-8 mt-14">
 
-                <!-- <img src="images/" alt=""> -->
+                <div
+                    class="bg-[#FFBF0F] max-w-lg h-56 w-full flex items-center rounded-3xl lg:mb-0 mb-10 lg:ml-0 ml-10">
 
-                <div class="bg-[#FFBF0F] max-w-lg h-56 w-full flex  items-center rounded-3xl">
-
-                    <div class="inter text-center justify-center ml-14">
+                    <div class="inter text-center justify-center ml-14 ">
                         <h1 class="font-extrabold text-3xl text-[#030712CC]">15% OFF </h1>
                         <p class="text-[#030712CC] text-sm font-bold w-full">on your next purchase <br><span
                                 class="text-[#03071280] text-sm font-bold">use by January 2024</span></p>
@@ -96,7 +93,8 @@
                     </div>
 
                 </div>
-                <div class="bg-[#F78C9C] max-w-lg h-56 w-full flex  items-center rounded-3xl">
+                <div
+                    class="bg-[#F78C9C] max-w-lg h-56 w-full flex  items-center rounded-3xl lg:mb-0 mb-10 lg:ml-0 ml-10">
                     <div class="inter text-center justify-center ml-14">
                         <h1 class="font-extrabold text-3xl text-[#030712CC]">20% OFF</h1>
 
@@ -151,7 +149,7 @@
 
                         <div>
                             <div>
-                                <div class="flex  justify-between max-w-2xl pt-6">
+                                <div class="flex  justify-between max-w-4xl pt-6">
                                     <div class="flex gap-4 items-center ml-12">
 
                                         <img class="w-16 h-12" src="images/bus-logo.png" alt="">
@@ -224,7 +222,7 @@
 
 
                     <div id="ticket-zone"
-                        class=" w-full flex gap-14 bg-white max-w-5xl rounded-2xl h-auto maxs-h-screen mt-14">
+                        class=" w-full lg:flex lg:gap-14 bg-white max-w-5xl rounded-2xl h-auto maxs-h-screen mt-14">
 
                         <div>
 
@@ -326,13 +324,13 @@
                             </div>
                         </div>
 
-                        <!-- divider -->
                         <img class=" h-fit" src="images/line.svg" alt="">
 
 
-                        <div class="">
+                        <div class="mt-0">
 
-                            <h1 class="raleway  text-lg font-bold text-[#030712] mt-16 border-b-2 border-dashed pb-5">
+                            <h1
+                                class="raleway  text-lg font-bold text-[#030712] lg:mt-16 mt-0 border-b-2 border-dashed pb-5">
                                 Select Your Seat</h1>
                             <div class="inter justify-between mt-8 h-fit   ">
 
@@ -415,60 +413,9 @@
 
             </div>
 
-
-
-
-
             </div>
 
-
-
-
         </section>
-
-
-
-
-        <!-- <section id="modal-section"
-            class="min-h-screen bg-no-repeat bg-center bg-[#F2F1F1] bg-[url(images/background.png)]">
- -->
-
-        <!-- The button to open modal -->
-
-
-
-        <!-- Open the modal using ID.showModal() method -->
-        <!-- <button class="btn" onclick="my_modal_5.showModal()">open modal</button>
-            <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
-                <div class="modal-box">
-                    <h3 class="font-bold text-lg">Hello!</h3>
-                    <p class="py-4">Press ESC key or click the button below to close</p>
-                    <div class="modal-action">
-                        <form method="dialog">
-                            if there is a button in form, it will close the modal
-                            <button class="btn">Close</button>
-                        </form>
-                    </div>
-                </div>
-            </dialog> -->
-
-
-
-        <!-- Open the modal using ID.showModal() method  -->
-        <!-- <button class="btn" onclick="my_modal_5.showModal()">open modal</button> -->
-
-
-        <!-- <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle w-3xl h-2/3">
-                <div class="modal-box">-->
-
-
-
-
-
-        <!-- </div> -->
-        <!-- </dialog>   -->
-
-        <!-- </section> -->
 
     </main>
 
@@ -480,11 +427,7 @@
     <script src="scripts/designs.js"></script>
 
 
-    <!-- Put this part before </body> tag -->
     <div class="modal" role="dialog" id="my_modal_8">
-
-
-
         <div class="modal-box">
             <div class=" w-full flex justify-center text-center">
                 <img class="w-24 h-20 flex justify-center" src="images/success.png" alt="" srcset="">
@@ -499,7 +442,7 @@
 
             <div class="modal-action  w-full flex justify-center text-center">
 
-                <a href="#" > <button id="continue-button"
+                <a href="#"> <button id="continue-button"
                         class="bg-[#27AE60] pb-3 px-24 items-center pt-2 text-xl font-semibold rounded-full text-white">Continue</button>
                 </a>
             </div>

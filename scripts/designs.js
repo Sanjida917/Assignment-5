@@ -124,8 +124,6 @@ for (const tests of test) {
 
         count++;
 
-        // continueButtonClick();
-        // continueButtonClick();
         discountCoupon();
         applyBtn();
         return totalPrice;
@@ -177,10 +175,7 @@ function discountCoupon() {
 }
 
 
-//
 
-
-// console.log('Count is :', count);
 
 function applyBtn() {
 
@@ -190,38 +185,3 @@ function applyBtn() {
     })
 
 }
-
-
-// function nextButtonClick() {
-
-//     document.getElementById('next-button').addEventListener('click', function () {
-
-//         hideElementById('banner-section');
-//         hideElementById('main-section');
-//         hideElementById('coupon-section');
-//         showElementById('modal-section');
-//         // document.getElementById('my_modal_5').showModal();
-//         // (.showModal());
-
-//     })
-// } 
-
-
-// function continueButtonClick() {
-
-//     document.getElementById('continue-button').addEventListener('click', function () {
-
-//         // window.screen;
-       
-//         hideElementById('modal-section');
-//         // close;
-//         // showElementById('banner-section');
-//         // showElementById('my_modal_5'.showModal());
-
-//     })
-// }
-
-
-
-
-
