@@ -14,9 +14,6 @@ const applyButton = document.getElementById('apply-button');
 
 for (const tests of test) {
 
-
-    console.log(test.length);
-
     tests.addEventListener(('click'), function () {
 
         if (count === 4) {
@@ -48,7 +45,6 @@ for (const tests of test) {
             divPlace.appendChild(newDiv);
 
 
-            console.log("Clicked In : ", tests.innerText);
             setBackgroundColorById(tests.innerText);
 
             const currentSeat = getTextElemenValueById('seat-number');
@@ -82,17 +78,10 @@ for (const tests of test) {
 
                 const phnNumber = parseInt(event.target.value);
 
-                console.log(phnNumber);
-
-                console.log(typeof phnNumber === 'number');
-                console.log(phnNumber.length);
-
-
                 const nextButton = document.getElementById('next-button');
 
                 if (count >= 1 && isNaN(phnNumber) === false) {
 
-                    console.log('Count is :', count);
                     nextButton.removeAttribute('disabled');
 
                 }
@@ -135,12 +124,10 @@ for (const tests of test) {
 }
 
 
-nextButtonClick();
-
 function discountCoupon() {
 
 
-    const coupns = document.getElementById('my-coupon').addEventListener('keyup', function (event) {
+    document.getElementById('my-coupon').addEventListener('keyup', function (event) {
 
         const couponValue = event.target.value;
 
